@@ -1,8 +1,23 @@
+html, body, #root{
+    margin: 0;
+    height: 100%;
+}
+#root {
+    width: 100%;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    color: #5E5D5E;
-    margin: 0 auto;
-    overflow: auto;
+    color: #5E5D5E;  
+}
+
+.homepage-hero{
+    background-image: url('../images/full-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh
+    
 }
 .content-wrapper{
     width: 90%;

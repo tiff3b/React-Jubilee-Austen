@@ -1,5 +1,3 @@
-import background from "../images/full-background.png"
-
 export default function Header () {
     return (
     <header> 
