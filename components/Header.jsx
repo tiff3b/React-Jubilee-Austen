@@ -4,7 +4,7 @@ export default function Header () {
     return (
     <header> 
         <div className="homepage-hero">
-            style={{backgroundImage: `url(${background})`}}
+           
         <div className="content-wrapper">
             <h1>Jubilee Austen</h1>
             <nav>
@@ -16,7 +16,9 @@ export default function Header () {
                     <li><a href="projects/index.html">projects</a></li>
                 </ul>
             </nav>
+        <div className="intro-header">
             <h2>Hi, I'm a developer that loves clean & elegant code.</h2>
+        </div>
         </div>
         </div>
     </header>
