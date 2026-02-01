@@ -4,6 +4,7 @@ export default function Header () {
         <div className="homepage-hero">
            
         <div className="content-wrapper">
+        
             <h1>Jubilee Austen</h1>
             <nav>
                 <ul>

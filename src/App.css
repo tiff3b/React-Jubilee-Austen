@@ -25,17 +25,36 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 65px 40px 0 40px;
 }
 
 header h1{
     font-size: 30px;
     color: #7b7e54;
     font-family: 'Lora', serif;
+
 }
 
-header nav{
+header nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+    list-style: none;
+}
 
-    text-align:right;
+nav ul li a {
+    text-transform: uppercase;
+    color: #727172;
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+h2 {
+    font-size: 72px;
+    font-family: 'Lora',serif;
+    color: #817f80;
 }
