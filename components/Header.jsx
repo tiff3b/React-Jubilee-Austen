@@ -12,7 +12,6 @@ export default function Header () {
                     <li><a href="#about">about</a></li>
                     <li><a href="#skills">skills</a></li>
                     <li><a href="#contact">contact</a></li>
-                    <li><a href="projects/index.html">projects</a></li>
                 </ul>
             </nav>
         <div className="intro-header">
