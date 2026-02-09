@@ -18,19 +18,19 @@ export default function Contact () {
                 <div class="contact-info">
                     <h2>Like What You See?</h2>
                     <h3 id="email-header">Let's meet for a cup of coffee.</h3>
-                    <a href="mailto:hi@Jubilee Austen.com">img src={envelope} alt="envelope icon" id="envelope-icon" hi@JubileeAusten.com</a>
+                    <a href="mailto:hi@Jubilee Austen.com"><img src={envelope} alt="envelope icon" id="envelope-icon" /> hi@JubileeAusten.com</a>
                     <h3 id="socialmedia-header">Or, follow me on social media:</h3>
                     <ul>
-                        <li><a href="https://x.com/" target="-blank">img src={twitter} 
-                                    alt="twitter icon"</a></li>
-                        <li><a href="https://www.facebook.com/" target="_blank">img src={facebook}
-                                    alt="facebook icon"</a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank">img src={instagram}
-                                    alt="instagram icon"</a></li>
-                        <li><a href="https://www.linkedin.com/" target="_blank">img src={linkedin}
-                                    alt="linkedin icon"</a></li>
-                        <li><a href="https://www.github.com/" target="_blank">img src={github}
-                                    alt="github icon"</a></li>
+                        <li><a href="https://x.com/" target="-blank"><img src={twitter} 
+                                    alt="twitter icon"/></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><img src={facebook}
+                                    alt="facebook icon"/></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src={instagram}
+                                    alt="instagram icon"/></a></li>
+                        <li><a href="https://www.linkedin.com/" target="_blank"><img src={linkedin}
+                                    alt="linkedin icon"/></a></li>
+                        <li><a href="https://www.github.com/" target="_blank"><img src={github}
+                                    alt="github icon"/></a></li>
                     </ul>
                 </div>
             </div>

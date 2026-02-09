@@ -12,6 +12,13 @@ body {
    
 }
 
+h2{
+    font-size: 2.25rem;
+    font-family: 'Lora',serif;
+    color: #817f80;
+}
+
+
 p{
     font-size: 1.25rem; 
     line-height: 40px;
@@ -58,19 +65,12 @@ nav ul li a {
 }
 
 header h2 {
-    font-size: 72px;
-    font-family: 'Lora',serif;
-    color: #817f80;
+    font-size: 4.5rem;
     margin-top: 40px;
 }
 
 #about{
     background-color: white;
-}
-
-#about h2, #skills h2{
-    font-size: 2.25rem;
-    font-family: 'Lora', serif;
 }
 
 .about-info {
@@ -114,5 +114,40 @@ header h2 {
 
 h3{
     font-size: 1.5rem;
+    line-height: 36px;
+    font-weight: 400;
 }
+
+#contact{
+    background-color: #f9e9e9;
+}
+
+#contact .content-wrapper{
+    justify-content: space-around;
+}
+
+#contact-img{
+    width: 500px;
+    height: 300px;
+    border: 12px solid white;
+    box-sizing: border-box;
+}
+
+#contact a{
+    font-size: 1.5rem;
+    line-height: 36px;
+    text-decoration: none;
+    color: #5e5d5e;
+}
+
+#contact ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+}
+#contact ul li{
+    display: inline-block;    
+}
+
 
